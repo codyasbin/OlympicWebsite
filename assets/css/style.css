@@ -1,0 +1,64 @@
+body {
+    background-color:darkgrey;
+    color: black;
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Set the width as you like, it will scale proportionally */
+    height: 600px;
+    /* Set the height as you like */
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+.carousel-inner img:before {
+    background: rgba(0, 0, 0, 0.45);
+    content: "";
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    }
+
+
+.navbar {
+    background-color: rgb(236, 191, 132);
+    color: rgb(255, 255, 255);
+    font-weight:bold;       
+    line-height: 35px;
+    margin: 0px;
+    padding: 0px auto;
+}
+a.navbar-brand.mx-4:hover{
+    color: rgb(234, 119, 74)  !important
+}  
+.navbar-nav li a{
+    color: white;
+}
+.navbar-nav li a:hover{
+    
+    color: rgb(234, 119, 74) !important;
+    line-height:35px ;
+    cursor: pointer;
+    
+}
+button.login.btn.text-light{
+    background-color:rgb(239, 166, 83) ;
+}
+button.login.btn.text-light:hover{
+    background-color: rgb(220, 131, 29) ;
+}
+.jumbotron.jumbotron-fluid.mb-0.mt-0.text-center{
+    background-color: rgb(236, 191, 132);
+}
+
+/* .btn:hover{background-color: rgb(226, 61, 43); color: gold;} */
+
